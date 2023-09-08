@@ -1,0 +1,10 @@
+Package: MATH4753JSALDFALL23
+Type: Package
+Title: Math 4753 Functions
+Version: 0.1.0
+Author: Jose Saldivar
+Maintainer: Jose Saldivar <jose.a.saldivar-1@ou.edu>
+Description: Lab functions used in Math 4753.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
