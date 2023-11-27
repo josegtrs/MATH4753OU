@@ -15,7 +15,7 @@
 #' @param gamma prob plane will be truly overbooked
 #' @param p prob of a 'show'
 #'
-#' @return
+#' @return something
 #' @export
 #'
 #' @examples
@@ -50,7 +50,6 @@ ntickets <- function(N = 400, gamma = 0.02, p = 0.95) {
 
   # Plot obj vs n
   layout(matrix(1:2,ncol =1, nrow = 2, byrow = TRUE))
-
   plot(x = n,
        y = discrete(n = n, N = N, gamma = gamma, p = p),
        xlab = "n",

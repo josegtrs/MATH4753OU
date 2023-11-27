@@ -1,9 +1,9 @@
 #' maxlikelihood2
 #'
-#' @param theta1
-#' @param theta2
-#' @param lfun
-#' @param ...
+#' @param theta1 first theta to be used
+#' @param theta2 second theta
+#' @param lfun lfun
+#' @param ... other param
 #'
 #' @return
 #' @export

@@ -2,13 +2,13 @@
 #'
 #' @param mu = mean of functio
 #' @param sigma = standard deviation of function
-#' @param a = input of probability and area to be calculated
+#' @param b = input of probability and area to be calculated
 #'
 #' @return a curve
 #' @export
 #'
 #' @examples
-#' myncurve(mu=10,sigma=5, a=6)
+#' myncurve(mu=10,sigma=5, b=6)
 #' @export
 myncurve = function(mu=10,sigma=5, b=6){
   b = b

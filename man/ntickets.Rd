@@ -13,6 +13,9 @@ ntickets(N = 400, gamma = 0.02, p = 0.95)
 
 \item{p}{prob of a 'show'}
 }
+\value{
+something
+}
 \description{
 ntickets for project 1
 }

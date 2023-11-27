@@ -1,11 +1,11 @@
 #' Myboot2 function
 #'
-#' @param iter
-#' @param x
-#' @param fun
-#' @param alpha
-#' @param cx
-#' @param ...
+#' @param iter iterations
+#' @param x array/data
+#' @param fun fun
+#' @param alpha alpha value
+#' @param cx cx value
+#' @param ... other params to be added
 #'
 #' @return
 #' @export

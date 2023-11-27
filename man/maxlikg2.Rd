@@ -7,7 +7,13 @@
 maxlikg2(theta1, theta2, lfun = "logbinpois", ...)
 }
 \arguments{
-\item{...}{}
+\item{theta1}{first theta to be used}
+
+\item{theta2}{second theta}
+
+\item{lfun}{lfun}
+
+\item{...}{other param}
 }
 \description{
 maxlikelihood2

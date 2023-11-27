@@ -11,7 +11,7 @@ myncurve(mu = 10, sigma = 5, b = 6)
 
 \item{sigma}{= standard deviation of function}
 
-\item{a}{= input of probability and area to be calculated}
+\item{b}{= input of probability and area to be calculated}
 }
 \value{
 a curve
@@ -20,5 +20,5 @@ a curve
 My Normal Curve
 }
 \examples{
-myncurve(mu=10,sigma=5, a=6)
+myncurve(mu=10,sigma=5, b=6)
 }

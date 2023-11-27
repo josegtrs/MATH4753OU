@@ -1,0 +1,55 @@
+---
+title: "What the package does"
+output: rmarkdown::html_document
+vignette: >
+  %\VignetteIndexEntry{What the package does}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753JSALDFALL23)
+```
+
+
+# Introduction 
+
+
+
+## The first function
+
+```{r}
+MATH4753JSALDFALL23::mybin(iter=100,n=10,p=0.5)
+```
+
+## second
+
+```{r}
+MATH4753JSALDFALL23::myncurve(mu=10, sigma=5,b=6)
+```
+
+## third
+
+```{r}
+MATH4753JSALDFALL23::ntickets(N=400,gamma=0.02, p=0.95)
+```
+
+## fourth 
+
+```{r}
+MATH4753JSALDFALL23::mycltp(n=100, iter=10000, lambda=10)
+```
+
+```{r}
+MATH4753JSALDFALL23::fire
+head(fire)
+```
+
+

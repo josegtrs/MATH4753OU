@@ -7,7 +7,13 @@
 mycltp(n, iter, lambda = 10, ...)
 }
 \arguments{
-\item{...}{}
+\item{n}{sample size}
+
+\item{iter}{iterations}
+
+\item{lambda}{lambda value}
+
+\item{...}{other params to be added}
 }
 \description{
 CLT Thoerem using the Poisson distribution

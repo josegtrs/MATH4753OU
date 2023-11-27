@@ -7,7 +7,17 @@
 myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 }
 \arguments{
-\item{...}{}
+\item{iter}{iterations}
+
+\item{x}{array/data}
+
+\item{fun}{fun}
+
+\item{alpha}{alpha value}
+
+\item{cx}{cx value}
+
+\item{...}{other params to be added}
 }
 \description{
 Myboot2 function

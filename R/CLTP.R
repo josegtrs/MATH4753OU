@@ -1,9 +1,9 @@
 #' CLT Thoerem using the Poisson distribution
 #'
-#' @param n
-#' @param iter
-#' @param lambda
-#' @param ...
+#' @param n sample size
+#' @param iter iterations
+#' @param lambda lambda value
+#' @param ... other params to be added
 #'
 #' @return
 #' @export
